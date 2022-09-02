@@ -113,3 +113,16 @@ h1::before {
 	justify-content: space-between;
 }
 
+.one {
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	border: 10px;
+	border-color: black;
+	background-color: #d6ca1b;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: cell;
+	text-align: center;
+	
+}
