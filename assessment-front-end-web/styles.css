@@ -34,5 +34,82 @@ input {
 }
 
 img {
-	max-width: 300px;
+	width: 300px;
 }
+
+#Seattle {
+	
+	width: 600px;
+}
+#caption {
+	color: grey;
+	text-align:right;
+	position: relative;
+	right: 200px;
+	bottom: 15px;
+	font-size: 10pt;
+}
+#intro {
+	color: darkolivegreen;
+	font-weight: 700;
+	margin: 50px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1::before {  
+	transform: scaleX(0);
+	transform-origin: bottom right;
+  }
+  
+  h1:hover::before {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+  }
+  
+  h1::before {
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	inset: 0 0 0 0;
+	background: rgb(74, 138, 102);
+	z-index: -1;
+	transition: transform .3s ease;
+  }
+  
+  h1 {
+	position: relative;
+	font-size: 5rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #ddd;
+	cursor: zoom-in;
+  }
+  
+  html {
+	block-size: 100%;
+	inline-size: 100%;
+  }
+  
+
+  ul {
+	font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgb(78, 97, 97);
+
+
+  }
+  form {
+	color: rgb(141, 111, 90);
+	cursor: crosshair;
+  }
+
+  .heading {
+	font-size: 30pt;
+	color: rgb(90, 129, 97);
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+
+#yesbuttons {
+	display: flex;
+	justify-content: space-between;
+}
+
