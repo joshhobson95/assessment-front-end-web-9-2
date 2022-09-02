@@ -126,3 +126,8 @@ h1::before {
 	text-align: center;
 	
 }
+
+#BreakingBad {
+	text-align: center; color: rgb(32, 53, 77);
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
