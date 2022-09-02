@@ -10,12 +10,12 @@ const colorFunction = (event) => {
 
 const placeFunction = (event) => {
     event.preventDefault();
-	alert('Making Espresso is my favorite ritual');
+	alert('Seattle is my favorite place');
 }
 
 const ritualFunction = (event) => {
     event.preventDefault();
-	alert('Seattle is my favorite place');
+	alert('Making Espresso is my favorite ritual');
 }
 
 colorButton.addEventListener('click', colorFunction)
